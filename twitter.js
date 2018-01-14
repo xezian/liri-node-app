@@ -11,18 +11,18 @@ let client = new Twitter({
 // function to retrieve the tweets
 const twitty = {
     getTenTweets: (name) => {
-        let params = {screen_name: name};
+        let params = {screen_name: name, tweet_mode: "extended"};
         client.get('statuses/user_timeline', params, function(error, tweets, response) {
             if (!error) {
                 let justTheTweets = [];
                 for (let key in tweets) {
-                    if (tweets[key].text) {
+                    if (tweets[key].full_text) {
                         if (justTheTweets.length < 10) {
-                            justTheTweets.push(tweets[key].text);
+                            justTheTweets.push(tweets[key].full_text);
                         } 
                     }
                 }
-                console.log(justTheTweets);
+                console.log("OK!\n\n - " + justTheTweets.join("\n\n - "));
             }
         });
     },

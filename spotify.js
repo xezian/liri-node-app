@@ -5,12 +5,23 @@ const client = new Spotify({
     secret: keys.spotifyKeys.secret
 });
 const spotty = {
-    getSongInfo: () => {
-        client.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
-            if (err) {
-              return console.log('Error occurred: ' + err);
-            }
-        console.log(data); 
+    getSongInfo: (song) => {
+        client
+            .search({ type: 'track', query: song })
+            .then(function(response) { 
+                let artistName = response.tracks.items[0].artists[0].name;
+                let songName = response.tracks.items[0].name;
+                let previewLink = response.tracks.items[0].preview_url;
+                let albumName = response.tracks.items[0].album.name;
+                console.log("------------------");
+                console.log("Song Name: " + songName);
+                console.log("Artist: " + artistName);
+                console.log("Preview Link: " + previewLink);
+                console.log("Album: " + albumName);
+                console.log("------------------")
+            })
+            .catch(function(err) {
+            console.log(err);
         });
     }
 }

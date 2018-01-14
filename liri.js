@@ -23,5 +23,26 @@ if (nodeArgs[2] == "get-tweets") {
 };
 //listener for "spotify-this-song" node argument
 if (nodeArgs[2] == "spotify-this-song") {
-    console.log(spot.spotty.getSongInfo());
+    let songName;
+    if (nodeArgs[3]) {
+        songName = nodeArgs[3];
+        for (let i = 4; i < nodeArgs.length; i++) {
+            songName = songName + " " + nodeArgs[i];
+        };
+        spot.spotty.getSongInfo(songName);
+    } else {
+        inquirer.prompt([
+            {
+                name: "song_name",
+                message: "Ok, for which song?"
+            }
+        ]).then(function(answer){
+            if (answer.song_name.trim() === "") {
+                songName = "The Sign, Ace of Base";
+            } else {
+                songName = answer.song_name;
+            }
+            spot.spotty.getSongInfo(songName);
+        })
+    }
 }
