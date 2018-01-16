@@ -1,5 +1,7 @@
+// requirements
 const Spotify = require("node-spotify-api");
-const keys = require("./keys.js")
+const keys = require("./keys.js");
+// spotify constructor with api keys plugged in from keys.js
 const client = new Spotify({
     id: keys.spotifyKeys.spotId,
     secret: keys.spotifyKeys.secret

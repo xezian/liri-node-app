@@ -1,6 +1,6 @@
+// requirements
 const Twitter = require("twitter");
 const keys = require("./keys.js");
-const inquirer = require("inquirer");
 // twitter constructor with api keys plugged in from keys.js
 let client = new Twitter({
     consumer_key: keys.twitterKeys.consumer_key,
@@ -22,11 +22,12 @@ const twitty = {
                         } 
                     }
                 }
-                console.log("OK!\n\n - " + justTheTweets.join("\n\n - "));
+                console.log("OK!\n\n - " + justTheTweets.join("\n\n - ") + "\n");
             }
         });
     },
 };
+// export the function
 module.exports = {
     twitty: twitty
 }
