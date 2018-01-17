@@ -14,7 +14,7 @@ const omdby = {
                 let tomatoRating;
                 // check first if the Response property of the object is marked "False", which happens for queries that aren't found in omdb
                 if (JSON.parse(body).Response === "False") {
-                    console.log("No such movie was found!")
+                    global.logWrapper("No such movie was found!")
                     return;
                 }
                 // check if "Ratings" in the JSON response is an empty object which happens for some movies with fewer data in omdb
@@ -24,16 +24,16 @@ const omdby = {
                     tomatoRating = JSON.parse(body).Ratings[1].Value;
                 }
                 // Parse the body of the site and recover each other value
-                console.log("-------------------");
-                console.log("Title: " + JSON.parse(body).Title);
-                console.log("Release Year: " + JSON.parse(body).Year);
-                console.log("IMDB Rating: " + JSON.parse(body).Rated);
-                console.log("Rotten Tomatoes Rating: " + tomatoRating);
-                console.log("Country: " + JSON.parse(body).Country);
-                console.log("Language: " + JSON.parse(body).Language);
-                console.log("Plot: " + JSON.parse(body).Plot);
-                console.log("Actors: " + JSON.parse(body).Actors);
-                console.log("-------------------");
+                global.logWrapper("-------------------");
+                global.logWrapper("Title: " + JSON.parse(body).Title);
+                global.logWrapper("Release Year: " + JSON.parse(body).Year);
+                global.logWrapper("IMDB Rating: " + JSON.parse(body).Rated);
+                global.logWrapper("Rotten Tomatoes Rating: " + tomatoRating);
+                global.logWrapper("Country: " + JSON.parse(body).Country);
+                global.logWrapper("Language: " + JSON.parse(body).Language);
+                global.logWrapper("Plot: " + JSON.parse(body).Plot);
+                global.logWrapper("Actors: " + JSON.parse(body).Actors);
+                global.logWrapper("-------------------");
             } 
         });
     }

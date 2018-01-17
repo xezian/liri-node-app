@@ -1,6 +1,7 @@
 // requirements
 const Twitter = require("twitter");
 const keys = require("./keys.js");
+const global = require("./global.js");
 // twitter constructor with api keys plugged in from keys.js
 let client = new Twitter(keys.twitterKeys);
 // function to retrieve the tweets
@@ -20,7 +21,7 @@ const twitty = {
                     }
                 }
                 // this joins the tweets in a way that looks OK in the console
-                console.log("OK!\n\n --> " + justTheTweets.join("\n\n --> ") + "\n");
+                global.logWrapper("OK!\n\n --> " + justTheTweets.join("\n\n --> ") + "\n");
             }
         });
     },

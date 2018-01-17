@@ -1,6 +1,7 @@
 // requirements
 const Spotify = require("node-spotify-api");
 const keys = require("./keys.js");
+const global = require("./global.js");
 // spotify constructor with api keys plugged in from keys.js
 const client = new Spotify({
     id: keys.spotifyKeys.spotId,
@@ -15,15 +16,15 @@ const spotty = {
                 let songName = response.tracks.items[0].name;
                 let previewLink = response.tracks.items[0].preview_url;
                 let albumName = response.tracks.items[0].album.name;
-                console.log("------------------");
-                console.log("Song Name: " + songName);
-                console.log("Artist: " + artistName);
-                console.log("Preview Link: " + previewLink);
-                console.log("Album: " + albumName);
-                console.log("------------------")
+                global.logWrapper("------------------");
+                global.logWrapper("Song Name: " + songName);
+                global.logWrapper("Artist: " + artistName);
+                global.logWrapper("Preview Link: " + previewLink);
+                global.logWrapper("Album: " + albumName);
+                global.logWrapper("------------------")
             })
             .catch(function(err) {
-            console.log(err);
+            global.logWrapper(err);
         });
     }
 }

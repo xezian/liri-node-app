@@ -3,6 +3,7 @@ const nodeArgs = process.argv;
 // module requirements
 const fs = require("fs");
 const inquirer = require("inquirer");
+const global = require("./global.js");
 const spot = require("./spotify.js");
 const twit = require("./twitter.js");
 const omdb = require("./omdb.js");
@@ -18,13 +19,17 @@ const listen = () => {
         };
         fs.readFile(fileToRead, "utf8", function(error, data) {
             if (error) {
-                return console.log(error);
+                return global.logWrapper(error);
             }
             let dataArr = data.split(",");
             process.argv.splice(2, process.argv.length, dataArr[0], dataArr[1]);
             listen();
         });
     }
+    if (nodeArgs[2]) {
+        global.logWrapper(`Liri: "Happy to help!"`);
+        global.logWrapper("Command: " + nodeArgs[2]);
+    };
     // listener for the "my-tweets" node argument
     if (nodeArgs[2] === "my-tweets") {
         twit.twitty.getTenTweets();
@@ -39,11 +44,11 @@ const listen = () => {
             inquirer.prompt([
                 {
                     name: "twitter_handle",
-                    message: "Ok, for what Twitter handle?",
+                    message: `Liri: "Ok, for what Twitter handle?"`,
                 }
             ]).then(function(answer){
                 twitName = answer.twitter_handle;
-                console.log(twitName)
+                global.logWrapper(twitName)
                 twit.twitty.getTenTweets(twitName);
             });
         };
@@ -61,7 +66,7 @@ const listen = () => {
             inquirer.prompt([
                 {
                     name: "song_name",
-                    message: "Ok, for which song?"
+                    message: `Liri: "Ok, for which song?"`
                 }
             ]).then(function(answer){
                 if (answer.song_name.trim() === "") {
@@ -87,7 +92,7 @@ const listen = () => {
             inquirer.prompt([
                 {
                     name: "movie_name",
-                    message: "Ok, for which movie?"
+                    message: `Liri: "Ok, for which movie?"`
                 }
             ]).then(function(answer){
                 if (answer.movie_name.trim() === "") {
