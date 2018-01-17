@@ -2,12 +2,7 @@
 const Twitter = require("twitter");
 const keys = require("./keys.js");
 // twitter constructor with api keys plugged in from keys.js
-let client = new Twitter({
-    consumer_key: keys.twitterKeys.consumer_key,
-    consumer_secret: keys.twitterKeys.consumer_secret,
-    access_token_key: keys.twitterKeys.access_token_key,
-    access_token_secret: keys.twitterKeys.access_token_secret
-});
+let client = new Twitter(keys.twitterKeys);
 // function to retrieve the tweets
 const twitty = {
     getTenTweets: (name) => {
@@ -25,7 +20,7 @@ const twitty = {
                     }
                 }
                 // this joins the tweets in a way that looks OK in the console
-                console.log("OK!\n\n --> " + justTheTweets.join("\n\n - ") + "\n");
+                console.log("OK!\n\n --> " + justTheTweets.join("\n\n --> ") + "\n");
             }
         });
     },
@@ -33,4 +28,4 @@ const twitty = {
 // export the function
 module.exports = {
     twitty: twitty
-}
+};

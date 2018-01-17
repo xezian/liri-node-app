@@ -34,6 +34,7 @@ const listen = () => {
         let twitName;
         if (nodeArgs[3]) {
             twitName = nodeArgs[3];
+            twit.twitty.getTenTweets(twitName);
         } else {
             inquirer.prompt([
                 {
@@ -46,7 +47,6 @@ const listen = () => {
                 twit.twitty.getTenTweets(twitName);
             });
         };
-        twit.twitty.getTenTweets(twitName);
     };
     //listener for "spotify-this-song" node argument
     if (nodeArgs[2] === "spotify-this-song") {
