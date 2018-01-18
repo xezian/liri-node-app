@@ -1,13 +1,16 @@
 // node args array
 const nodeArgs = process.argv;
-// module requirements
+// node package requirements
 const fs = require("fs");
 const inquirer = require("inquirer");
 const moment = require("moment");
+const request = require("request");
+// filepath module requirements
 const global = require("./global.js");
 const spot = require("./spotify.js");
 const twit = require("./twitter.js");
-const omdb = require("./omdb.js");
+const igdb = require("./igdb.js");
+const requests = require("./requests.js");
 // listener I can pass to the do-what-it-says command to have it do stuff with the new arguments. 
 const listen = () => {
     if (nodeArgs) {
@@ -18,6 +21,7 @@ const listen = () => {
         global.logWrapper("Request: " + nodeArgs[2]);
         global.logWrapper("When: " + nowFormatted);
     };
+    // switch for all the nodeArgs we can handle
     switch (nodeArgs[2]) {
     // listener for the "do-what-it-says" node argument
     case "do-what-it-says":
@@ -39,6 +43,19 @@ const listen = () => {
     case "movie-this":
         movieThis();
         break;
+    // listener for the "tell-me-a-joke" node argument
+    case "tell-me-a-joke":
+        requests.tellMeAJoke();
+        break;
+    // listener for the "weather-this-city" nodeargument
+    case "weather-this-city":
+        weatherThisCity();
+        break;
+    // listener for the "video-game-this" node argument
+    case "video-game-this":
+        videoGameThis();
+        break;
+    // listener for the "read-my-log" node argument
     case "read-my-log":
         readMyLog();
         break;
@@ -46,7 +63,7 @@ const listen = () => {
         global.logWrapper(`Liri: "Sorry, ${nodeArgs[2]} is a request I do not recognize"`)
     };    
 };
-// functions to process node arguments
+// functions to process these darn here node arguments
 // do-what-it-says
 const doWhatItSays = () => {
     let fileToRead;
@@ -71,7 +88,7 @@ const getTweets = () => {
     let twitName;
     if (nodeArgs[3]) {
         twitName = nodeArgs[3];
-        twit.twitty.getTenTweets(twitName);
+        twit.getTenTweets(twitName);
     } else {
         inquirer.prompt([
             {
@@ -81,7 +98,7 @@ const getTweets = () => {
         ]).then(function(answer){
             twitName = answer.twitter_handle;
             global.logWrapper(twitName)
-            twit.twitty.getTenTweets(twitName);
+            twit.getTenTweets(twitName);
         });
     };
 };
@@ -93,7 +110,7 @@ const spotifyThisSong = () => {
         for (let i = 4; i < nodeArgs.length; i++) {
             songName = songName + " " + nodeArgs[i];
         };
-        spot.spotty.getSongInfo(songName);
+        spot.getSongInfo(songName);
     } else {
         inquirer.prompt([
             {
@@ -106,7 +123,7 @@ const spotifyThisSong = () => {
             } else {
                 songName = answer.song_name;
             }
-            spot.spotty.getSongInfo(songName);
+            spot.getSongInfo(songName);
         })
     };
 };
@@ -119,7 +136,7 @@ const movieThis = () => {
                 movieName = movieName + "+" + nodeArgs[i];
             };
         };
-        omdb.omdby.getMovieInfo(movieName);
+        requests.getMovieInfo(movieName);
     } else {
         inquirer.prompt([
             {
@@ -132,10 +149,59 @@ const movieThis = () => {
             } else {
                 movieName = answer.movie_name;
             }
-            omdb.omdby.getMovieInfo(movieName);
+            requests.getMovieInfo(movieName);
         })
     }
 };
+// video-game-this
+const videoGameThis = () => {
+    if (nodeArgs[3]) {
+        gameName = nodeArgs[3];
+        if (nodeArgs[4]) {
+            for (let i = 4; i < nodeArgs.length; i++) {
+                gameName = gameName + "+" + nodeArgs[i];
+            };
+        };
+        igdb.getGameInfo(gameName);
+    } else {
+        inquirer.prompt([
+            {
+                name: "game_name",
+                message: `Liri: "Ok, for which game?"`
+            }
+        ]).then(function(answer){
+            if (answer.game_name.trim() === "") {
+                gameName = "Commander+Keen";
+            } else {
+                gameName = answer.game_name;
+            }
+            igdb.getGameInfo(gameName);
+        })
+    }
+};
+// weather-this-city
+const weatherThisCity = () => {
+    if (nodeArgs[3]) {
+        cityName = nodeArgs[3];
+        requests.getWeatherData(cityName);
+    } else {
+        inquirer.prompt([
+            {
+                name: "city_name",
+                message: `Liri: "Ok, for which city?"`
+            }
+        ]).then(function(answer){
+            if (answer.city_name.trim() === "") {
+                cityName = "Tucson,AZ";
+            } else {
+                cityName = answer.city_name;
+            }
+            requests.getWeatherData(cityName);
+        })
+    };
+};
+// TODO dictionary-this
+// TODO thesaurus-this
 // read-my-log
 const readMyLog = () => {
     fs.readFile('log.txt', 'utf8', function(error, data){
@@ -143,5 +209,5 @@ const readMyLog = () => {
         global.logWrapper(`Log has been READ`);
     });
 };
-// let's call something shall we?
+// let's call something, shall we?
 listen();
