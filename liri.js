@@ -3,11 +3,12 @@ const nodeArgs = process.argv;
 // module requirements
 const fs = require("fs");
 const inquirer = require("inquirer");
+const moment = require("moment");
 const global = require("./global.js");
 const spot = require("./spotify.js");
 const twit = require("./twitter.js");
 const omdb = require("./omdb.js");
-// in general listener I can pass to the do-what-it-says command to take in the new arguments. 
+// in general listener I can pass to the do-what-it-says command to have it do stuff with the new arguments. 
 const listen = () => {
     // listener for the "do-what-it-says" node argument
     if (nodeArgs[2] === "do-what-it-says") {
@@ -22,13 +23,19 @@ const listen = () => {
                 return global.logWrapper(error);
             }
             let dataArr = data.split(",");
-            process.argv.splice(2, process.argv.length, dataArr[0], dataArr[1]);
-            listen();
+            for (let i = 0; i < dataArr.length; i = i + 2) {
+                process.argv.splice(2, process.argv.length, dataArr[i], dataArr[i + 1]);
+                listen();
+            }
         });
-    }
+    };
     if (nodeArgs[2]) {
+        let now = moment();
+        let nowFormatted = now.format(`YYYY-MM-DD HH:mm:ss`);
+        global.logWrapper(`\\/\\/\\/\\/\\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\\/\\/\\/\\/\\`);
         global.logWrapper(`Liri: "Happy to help!"`);
-        global.logWrapper("Command: " + nodeArgs[2]);
+        global.logWrapper("Request: " + nodeArgs[2]);
+        global.logWrapper("When: " + nowFormatted);
     };
     // listener for the "my-tweets" node argument
     if (nodeArgs[2] === "my-tweets") {

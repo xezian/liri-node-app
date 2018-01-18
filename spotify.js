@@ -12,6 +12,12 @@ const spotty = {
         client
             .search({ type: 'track', query: song })
             .then(function(response) { 
+                if (global.isEmptyObject(response.tracks.items)) {
+                    global.logWrapper("------------------");
+                    global.logWrapper("No such song was found!");
+                    global.logWrapper("------------------");
+                    return;
+                };
                 let artistName = response.tracks.items[0].artists[0].name;
                 let songName = response.tracks.items[0].name;
                 let previewLink = response.tracks.items[0].preview_url;
