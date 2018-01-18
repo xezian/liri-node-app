@@ -11,9 +11,18 @@ const twitty = {
         let params = {screen_name: name, tweet_mode: "extended", count: 20};
         client.get('statuses/user_timeline', params, function(error, tweets, response) {
             if (!error) {
-                for (let key in tweets) {
-                    global.logWrapper(`--> ` + tweets[key].full_text + `\n`)
+                if (global.isEmptyObject(tweets)) {
+                    global.logWrapper(`Not a Tweet was found!`);
+                    return;
                 }
+                for (let key in tweets) {
+                    if (tweets[key].full_text) {
+                        global.logWrapper(`--> ` + tweets[key].full_text + `\n`);
+                    }
+                }
+            } else {
+                global.logWrapper(`No such Tweeter was found!`);
+                console.log(error);
             }
         });
     },

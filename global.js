@@ -13,4 +13,4 @@ module.exports.logWrapper = (message) => {
           return console.log(err);
         }
     });
-}
+};
