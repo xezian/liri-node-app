@@ -7,21 +7,13 @@ let client = new Twitter(keys.twitterKeys);
 // function to retrieve the tweets
 const twitty = {
     getTenTweets: (name) => {
-        // tweet_mode: "extended" gets the full length tweets
-        let params = {screen_name: name, tweet_mode: "extended"};
+        // tweet_mode: "extended" gets the full length tweets (doesn't seem to work for retweets)
+        let params = {screen_name: name, tweet_mode: "extended", count: 20};
         client.get('statuses/user_timeline', params, function(error, tweets, response) {
             if (!error) {
-                // array in which to collect those tweets
-                let justTheTweets = [];
                 for (let key in tweets) {
-                    if (tweets[key].full_text) {
-                        if (justTheTweets.length < 20) {
-                            justTheTweets.push(tweets[key].full_text);
-                        } 
-                    }
+                    global.logWrapper(`--> ` + tweets[key].full_text + `\n`)
                 }
-                // this joins the tweets in a way that looks OK in the console
-                global.logWrapper("OK!\n\n --> " + justTheTweets.join("\n\n --> ") + "\n");
             }
         });
     },
