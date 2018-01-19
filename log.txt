@@ -575,3 +575,48 @@ Meaning 9: {"date":{"_text":"1889"},"dt":{"_text":":a sandwich of three slices o
 ---------------------------------------
 Meaning 10: {"date":{"_text":"1950"},"dt":[{"_text":":a usually grilled and pressed sandwich in Cuban-American cuisine served on a long split roll and typically containing roasted meats, cheese, and pickles"},{"_text":":","sx":{"_text":"submarine ","sxn":{"_text":"2"}}}],"sd":{"_text":"broadly"}}
 ---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:31:39
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:32:14
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:33:57
+---------------------------------------
+Meaning 1: {"date":{"_text":"14th century"},"sn":[{"_text":"1"},{"_text":"2"},{"_text":"3"}],"dt":[{"_text":":a liquid food especially with a meat, fish, or vegetable stock as a base and often containing pieces of solid food"},{"_text":":something (as a heavy fog or nitroglycerine) having or suggesting the consistency or nutrient qualities of soup"},{"_text":":an unfortunate predicament ","vi":{"_text":"that stunt landed her in the ","it":{"_text":"soup"}}}]}
+---------------------------------------
+---------------------------------------
+Meaning 2: {"date":{"_text":"circa 1945"},"dt":{"_text":":a soup that is offered by a restaurant on a particular day"}}
+---------------------------------------
+---------------------------------------
+Meaning 3: {"date":{"_text":"1831"},"dt":{"_text":":an establishment dispensing minimum dietary essentials (as soup and bread) to the needy"}}
+---------------------------------------
+---------------------------------------
+Meaning 4: {"vt":{"_text":"transitive verb"},"date":{"_text":"circa 1933"},"dt":{"_text":":to increase the power or efficiency of ","vi":{"it":{"_text":"soup up"},"_text":" an engine"}}}
+---------------------------------------
+---------------------------------------
+Meaning 5: {"date":{"_text":"1934"},"dt":{"_text":":a hodgepodge especially of initials (as of the names of organizations)"}}
+---------------------------------------
+---------------------------------------
+Meaning 6: {"date":{"_text":"1818"},"dt":{"_text":[":a soup made with the nest of a swiftlet (especially ",") that builds it using a glutinous secretion from its salivary glands"],"it":{"_text":"Collocalia fuciphaga"}}}
+---------------------------------------
+---------------------------------------
+Meaning 7: {"date":{"_text":"1912"},"dt":{"_text":":something easy to do"}}
+---------------------------------------
+---------------------------------------
+Meaning 8: {"date":{"_text":"1783"},"dt":{"_text":":a soup made of meat (as calf's head or veal), wine, and spices in imitation of green turtle soup"}}
+---------------------------------------
+---------------------------------------
+Meaning 9: {"date":{"_text":"1711"},"sn":[{"_text":"1"},{"_text":"2"}],"dt":[{"_text":":a thick purée made of dried peas"},{"_text":":a thick fog"}]}
+---------------------------------------
+---------------------------------------
+Meaning 10: {"date":{"_text":"1969"},"dt":{"_text":":a mixture of organic molecules in evolutionary theory from which life on earth originated"}}
+---------------------------------------

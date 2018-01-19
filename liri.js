@@ -225,7 +225,7 @@ const dictionaryThis = () => {
                 message: `Liri: "Ok, for which word?"`
             }
         ]).then(function(answer){
-            if (answer.city_name.trim() === "") {
+            if (answer.word_name.trim() === "") {
                 wordToFind = "";
             } else {
                 wordToFind = answer.word_name;
@@ -247,7 +247,7 @@ const thesaurusThis = () => {
                 message: `Liri: "Ok, for which word?"`
             }
         ]).then(function(answer){
-            if (answer.city_name.trim() === "") {
+            if (answer.word_name.trim() === "") {
                 wordToFind = "";
             } else {
                 wordToFind = answer.word_name;
