@@ -1,3 +1,4 @@
+"use strict";
 // node args array
 const nodeArgs = process.argv;
 // node package requirements
@@ -54,6 +55,14 @@ const listen = () => {
     // listener for the "video-game-this" node argument
     case "video-game-this":
         videoGameThis();
+        break;
+    // listener for the "dictionary-this" node argument
+    case "dictionary-this":
+        dictionaryThis();
+        break;
+    // listener for the "thesaurus-this" node argument
+    case "thesaurus-this":
+        thesaurusThis();
         break;
     // listener for the "read-my-log" node argument
     case "read-my-log":
@@ -129,6 +138,7 @@ const spotifyThisSong = () => {
 };
 // movie-this
 const movieThis = () => {
+    let movieName;
     if (nodeArgs[3]) {
         movieName = nodeArgs[3];
         if (nodeArgs[4]) {
@@ -155,6 +165,7 @@ const movieThis = () => {
 };
 // video-game-this
 const videoGameThis = () => {
+    let gameName;
     if (nodeArgs[3]) {
         gameName = nodeArgs[3];
         if (nodeArgs[4]) {
@@ -181,6 +192,7 @@ const videoGameThis = () => {
 };
 // weather-this-city
 const weatherThisCity = () => {
+    let cityName;
     if (nodeArgs[3]) {
         cityName = nodeArgs[3];
         requests.getWeatherData(cityName);
@@ -200,8 +212,50 @@ const weatherThisCity = () => {
         })
     };
 };
-// TODO dictionary-this
-// TODO thesaurus-this
+// dictionary-this
+const dictionaryThis = () => {
+    let wordToFind;
+    if (nodeArgs[3]) {
+        wordToFind = nodeArgs[3];
+        requests.merriamWeb.getDefinition(wordToFind);
+    } else {
+        inquirer.prompt([
+            {
+                name: "word_name",
+                message: `Liri: "Ok, for which word?"`
+            }
+        ]).then(function(answer){
+            if (answer.city_name.trim() === "") {
+                wordToFind = "";
+            } else {
+                wordToFind = answer.word_name;
+            }
+            requests.merriamWeb.getDefinition(wordToFind);
+        })
+    }
+};
+// thesaurus-this
+const thesaurusThis = () => {
+    let wordToFind;
+    if (nodeArgs[3]) {
+        wordToFind = nodeArgs[3];
+        requests.merriamWeb.getSynonyms(wordToFind);
+    } else {
+        inquirer.prompt([
+            {
+                name: "word_name",
+                message: `Liri: "Ok, for which word?"`
+            }
+        ]).then(function(answer){
+            if (answer.city_name.trim() === "") {
+                wordToFind = "";
+            } else {
+                wordToFind = answer.word_name;
+            }
+            requests.merriamWeb.getSynonyms(wordToFind);
+        })
+    }
+};
 // read-my-log
 const readMyLog = () => {
     fs.readFile('log.txt', 'utf8', function(error, data){

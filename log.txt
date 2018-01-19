@@ -10,3 +10,568 @@ Welcome to my LOG!
 @
 @
 @
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:51:17
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:51:55
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:54:03
+---------------------------------------
+Meaning 1: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 2: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 3: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 4: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 5: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 6: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 7: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 8: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 9: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 10: [object Object]
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:54:49
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:55:30
+---------------------------------------
+Meaning 1: sandwich
+---------------------------------------
+---------------------------------------
+Meaning 2: sandwich
+---------------------------------------
+---------------------------------------
+Meaning 3: Sandwich
+---------------------------------------
+---------------------------------------
+Meaning 4: sandwich board
+---------------------------------------
+---------------------------------------
+Meaning 5: sandwich coin
+---------------------------------------
+---------------------------------------
+Meaning 6: sandwich generation
+---------------------------------------
+---------------------------------------
+Meaning 7: sandwich man
+---------------------------------------
+---------------------------------------
+Meaning 8: Sandwich Islands
+---------------------------------------
+---------------------------------------
+Meaning 9: club sandwich
+---------------------------------------
+---------------------------------------
+Meaning 10: Cuban sandwich
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:55:52
+---------------------------------------
+Meaning 1: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 2: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 3: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 4: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 5: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 6: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 7: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 8: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 9: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 10: [object Object]
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:57:02
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:57:56
+---------------------------------------
+Meaning 1: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 2: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 3: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 4: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 5: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 6: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 7: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 8: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 9: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 10: [object Object]
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:58:22
+---------------------------------------
+Meaning 1: undefined
+---------------------------------------
+---------------------------------------
+Meaning 2: undefined
+---------------------------------------
+---------------------------------------
+Meaning 3: undefined
+---------------------------------------
+---------------------------------------
+Meaning 4: undefined
+---------------------------------------
+---------------------------------------
+Meaning 5: undefined
+---------------------------------------
+---------------------------------------
+Meaning 6: undefined
+---------------------------------------
+---------------------------------------
+Meaning 7: undefined
+---------------------------------------
+---------------------------------------
+Meaning 8: undefined
+---------------------------------------
+---------------------------------------
+Meaning 9: undefined
+---------------------------------------
+---------------------------------------
+Meaning 10: undefined
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:58:56
+---------------------------------------
+Meaning 1: undefined
+---------------------------------------
+---------------------------------------
+Meaning 2: undefined
+---------------------------------------
+---------------------------------------
+Meaning 3: undefined
+---------------------------------------
+---------------------------------------
+Meaning 4: undefined
+---------------------------------------
+---------------------------------------
+Meaning 5: undefined
+---------------------------------------
+---------------------------------------
+Meaning 6: undefined
+---------------------------------------
+---------------------------------------
+Meaning 7: undefined
+---------------------------------------
+---------------------------------------
+Meaning 8: undefined
+---------------------------------------
+---------------------------------------
+Meaning 9: undefined
+---------------------------------------
+---------------------------------------
+Meaning 10: undefined
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:59:19
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 17:59:29
+---------------------------------------
+Meaning 1: {"_attributes":{"id":"sandwich[1]"},"ew":{"_text":"sandwich"},"subj":{"_text":"FD-1#BD-2"},"hw":{"_attributes":{"hindex":"1"},"_text":"sand*wich"},"sound":{"wav":{"_text":"sandwi01.wav"},"wpr":{"_text":"!san(d)-+wich"}},"pr":{"_text":["ˈsan(d)-ˌwich, ˈsam-; "," ˈsaŋ-"],"it":{"_text":"dialect"}},"fl":{"_text":"noun"},"et":{"_text":["John Montagu, 4th Earl of "," †1792 English diplomat"],"it":{"_text":"Sandwich"}},"def":{"date":{"_text":"1762"},"sn":[{"_text":"1 a"},{"_text":"b"},{"_text":"2"}],"dt":[{"_text":":two or more slices of bread or a split roll having a filling in between"},{"_text":":one slice of bread covered with food"},{"_text":":something resembling a sandwich"},{"_text":":composite structural material consisting of layers often of high-strength facings bonded to a low strength central core"}],"sd":{"_text":"especially"}}}
+---------------------------------------
+---------------------------------------
+Meaning 2: {"_attributes":{"id":"sandwich[2]"},"ew":{"_text":"sandwich"},"subj":{"_text":"FD"},"hw":{"_attributes":{"hindex":"2"},"_text":"sandwich"},"fl":{"_text":"verb"},"def":{"vt":{"_text":"transitive verb"},"date":{"_text":"1861"},"sn":[{"_text":"1"},{"_text":"2"}],"dt":[{"_text":":to make into or as if into a sandwich"},{"_text":":to insert or enclose between usually two things of another quality or character"},{"_text":":to make a place for ","un":{"_text":["often used with "," or "],"it":[{"_text":"in"},{"_text":"between"}]}}],"sd":{"_text":"especially"}}}
+---------------------------------------
+---------------------------------------
+Meaning 3: {"_attributes":{"id":"Sandwich"},"ew":{"_text":"Sandwich"},"hw":{"_text":"Sand*wich"},"sound":{"wav":{"_text":"ggsand09.wav"}},"pr":{"_text":"ˈsan(d)-(ˌ)wich"},"fl":{"_text":"geographical name"},"def":{"dt":{"_text":["town "," England in Kent on Stour River "," 4227"],"g":{"_text":"SE"},"it":{"_text":"pop"}}}}
+---------------------------------------
+---------------------------------------
+Meaning 4: {"_attributes":{"id":"sandwich board"},"ew":{"_text":"sandwich board"},"subj":{"_text":"BZ"},"hw":{"_text":"sandwich board"},"fl":{"_text":"noun"},"def":{"date":{"_text":"1897"},"dt":{"_text":":two usually hinged boards designed for hanging from the shoulders with one board before and one behind and used especially for advertising or picketing"}}}
+---------------------------------------
+---------------------------------------
+Meaning 5: {"_attributes":{"id":"sandwich coin"},"ew":{"_text":"sandwich coin"},"subj":{"_text":"MO"},"hw":{"_text":"sandwich coin"},"fl":{"_text":"noun"},"def":{"date":{"_text":"1965"},"dt":{"_text":":a clad coin"}}}
+---------------------------------------
+---------------------------------------
+Meaning 6: {"_attributes":{"id":"sandwich generation"},"ew":{"_text":"sandwich generation"},"hw":{"_text":"sandwich generation"},"fl":{"_text":"noun"},"def":{"date":{"_text":"1987"},"dt":{"_text":":a generation of people who are caring for their aging parents while supporting their own children"}}}
+---------------------------------------
+---------------------------------------
+Meaning 7: {"_attributes":{"id":"sandwich man"},"ew":{"_text":"sandwich man"},"hw":{"_text":"sandwich man"},"fl":{"_text":"noun"},"def":{"date":{"_text":"1864"},"dt":{"_text":":one who wears a sandwich board"}}}
+---------------------------------------
+---------------------------------------
+Meaning 8: {"_attributes":{"id":"Sandwich Islands"},"ew":{"_text":"Sandwich Islands"},"hw":{"_text":"Sandwich Islands"},"fl":{"_text":"geographical name"},"def":{"dt":{"dx":{"_text":"see ","dxt":{"_text":"hawaii ","dxn":{"_text":"1"}}}}}}
+---------------------------------------
+---------------------------------------
+Meaning 9: {"_attributes":{"id":"club sandwich"},"ew":{"_text":"club sandwich"},"subj":{"_text":"FD"},"hw":{"_text":"club sandwich"},"fl":{"_text":"noun"},"def":{"date":{"_text":"1889"},"dt":{"_text":":a sandwich of three slices of bread with two layers of meat (as turkey) and lettuce, tomato, and mayonnaise"}}}
+---------------------------------------
+---------------------------------------
+Meaning 10: {"_attributes":{"id":"Cuban sandwich"},"ew":{"_text":"Cuban sandwich"},"subj":{"_text":"FD"},"hw":{"_text":"Cuban sandwich"},"fl":{"_text":"noun"},"def":{"date":{"_text":"1950"},"dt":[{"_text":":a usually grilled and pressed sandwich in Cuban-American cuisine served on a long split roll and typically containing roasted meats, cheese, and pickles"},{"_text":":","sx":{"_text":"submarine ","sxn":{"_text":"2"}}}],"sd":{"_text":"broadly"}}}
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:01:35
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:02:10
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:02:41
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:03:04
+---------------------------------------
+Meaning 1: undefined
+---------------------------------------
+---------------------------------------
+Meaning 2: undefined
+---------------------------------------
+---------------------------------------
+Meaning 3: undefined
+---------------------------------------
+---------------------------------------
+Meaning 4: undefined
+---------------------------------------
+---------------------------------------
+Meaning 5: undefined
+---------------------------------------
+---------------------------------------
+Meaning 6: undefined
+---------------------------------------
+---------------------------------------
+Meaning 7: undefined
+---------------------------------------
+---------------------------------------
+Meaning 8: undefined
+---------------------------------------
+---------------------------------------
+Meaning 9: undefined
+---------------------------------------
+---------------------------------------
+Meaning 10: undefined
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:03:12
+---------------------------------------
+Meaning 1: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 2: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 3: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 4: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 5: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 6: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 7: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 8: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 9: [object Object]
+---------------------------------------
+---------------------------------------
+Meaning 10: [object Object]
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:03:27
+---------------------------------------
+Meaning 1: {"date":{"_text":"1762"},"sn":[{"_text":"1 a"},{"_text":"b"},{"_text":"2"}],"dt":[{"_text":":two or more slices of bread or a split roll having a filling in between"},{"_text":":one slice of bread covered with food"},{"_text":":something resembling a sandwich"},{"_text":":composite structural material consisting of layers often of high-strength facings bonded to a low strength central core"}],"sd":{"_text":"especially"}}
+---------------------------------------
+---------------------------------------
+Meaning 2: {"vt":{"_text":"transitive verb"},"date":{"_text":"1861"},"sn":[{"_text":"1"},{"_text":"2"}],"dt":[{"_text":":to make into or as if into a sandwich"},{"_text":":to insert or enclose between usually two things of another quality or character"},{"_text":":to make a place for ","un":{"_text":["often used with "," or "],"it":[{"_text":"in"},{"_text":"between"}]}}],"sd":{"_text":"especially"}}
+---------------------------------------
+---------------------------------------
+Meaning 3: {"dt":{"_text":["town "," England in Kent on Stour River "," 4227"],"g":{"_text":"SE"},"it":{"_text":"pop"}}}
+---------------------------------------
+Meaning 4: {"date":{"_text":"1897"},"dt":{"_text":":two usually hinged boards designed for hanging from the shoulders with one board before and one behind and used especially for advertising or picketing"}}
+---------------------------------------
+---------------------------------------
+---------------------------------------
+Meaning 5: {"date":{"_text":"1965"},"dt":{"_text":":a clad coin"}}
+---------------------------------------
+---------------------------------------
+Meaning 6: {"date":{"_text":"1987"},"dt":{"_text":":a generation of people who are caring for their aging parents while supporting their own children"}}
+---------------------------------------
+---------------------------------------
+Meaning 7: {"date":{"_text":"1864"},"dt":{"_text":":one who wears a sandwich board"}}
+---------------------------------------
+---------------------------------------
+Meaning 8: {"dt":{"dx":{"_text":"see ","dxt":{"_text":"hawaii ","dxn":{"_text":"1"}}}}}
+---------------------------------------
+Meaning 9: {"date":{"_text":"1889"},"dt":{"_text":":a sandwich of three slices of bread with two layers of meat (as turkey) and lettuce, tomato, and mayonnaise"}}
+---------------------------------------
+---------------------------------------
+---------------------------------------
+Meaning 10: {"date":{"_text":"1950"},"dt":[{"_text":":a usually grilled and pressed sandwich in Cuban-American cuisine served on a long split roll and typically containing roasted meats, cheese, and pickles"},{"_text":":","sx":{"_text":"submarine ","sxn":{"_text":"2"}}}],"sd":{"_text":"broadly"}}
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:03:53
+---------------------------------------
+Meaning 1: undefined
+---------------------------------------
+---------------------------------------
+Meaning 2: undefined
+---------------------------------------
+---------------------------------------
+Meaning 3: ["town "," England in Kent on Stour River "," 4227"]
+---------------------------------------
+---------------------------------------
+Meaning 4: ":two usually hinged boards designed for hanging from the shoulders with one board before and one behind and used especially for advertising or picketing"
+---------------------------------------
+---------------------------------------
+Meaning 5: ":a clad coin"
+---------------------------------------
+---------------------------------------
+Meaning 6: ":a generation of people who are caring for their aging parents while supporting their own children"
+---------------------------------------
+---------------------------------------
+Meaning 7: ":one who wears a sandwich board"
+---------------------------------------
+---------------------------------------
+Meaning 8: undefined
+---------------------------------------
+---------------------------------------
+Meaning 9: ":a sandwich of three slices of bread with two layers of meat (as turkey) and lettuce, tomato, and mayonnaise"
+---------------------------------------
+---------------------------------------
+Meaning 10: undefined
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:04:17
+---------------------------------------
+Meaning 1: [{"_text":":two or more slices of bread or a split roll having a filling in between"},{"_text":":one slice of bread covered with food"},{"_text":":something resembling a sandwich"},{"_text":":composite structural material consisting of layers often of high-strength facings bonded to a low strength central core"}]
+---------------------------------------
+---------------------------------------
+Meaning 2: [{"_text":":to make into or as if into a sandwich"},{"_text":":to insert or enclose between usually two things of another quality or character"},{"_text":":to make a place for ","un":{"_text":["often used with "," or "],"it":[{"_text":"in"},{"_text":"between"}]}}]
+---------------------------------------
+---------------------------------------
+Meaning 3: {"_text":["town "," England in Kent on Stour River "," 4227"],"g":{"_text":"SE"},"it":{"_text":"pop"}}
+---------------------------------------
+---------------------------------------
+Meaning 4: {"_text":":two usually hinged boards designed for hanging from the shoulders with one board before and one behind and used especially for advertising or picketing"}
+---------------------------------------
+---------------------------------------
+Meaning 5: {"_text":":a clad coin"}
+---------------------------------------
+---------------------------------------
+Meaning 6: {"_text":":a generation of people who are caring for their aging parents while supporting their own children"}
+---------------------------------------
+---------------------------------------
+Meaning 7: {"_text":":one who wears a sandwich board"}
+---------------------------------------
+---------------------------------------
+Meaning 8: {"dx":{"_text":"see ","dxt":{"_text":"hawaii ","dxn":{"_text":"1"}}}}
+---------------------------------------
+---------------------------------------
+Meaning 9: {"_text":":a sandwich of three slices of bread with two layers of meat (as turkey) and lettuce, tomato, and mayonnaise"}
+---------------------------------------
+---------------------------------------
+Meaning 10: [{"_text":":a usually grilled and pressed sandwich in Cuban-American cuisine served on a long split roll and typically containing roasted meats, cheese, and pickles"},{"_text":":","sx":{"_text":"submarine ","sxn":{"_text":"2"}}}]
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:05:00
+---------------------------------------
+Meaning 1: undefined
+---------------------------------------
+---------------------------------------
+Meaning 2: undefined
+---------------------------------------
+---------------------------------------
+Meaning 3: undefined
+---------------------------------------
+---------------------------------------
+Meaning 4: undefined
+---------------------------------------
+---------------------------------------
+Meaning 5: undefined
+---------------------------------------
+---------------------------------------
+Meaning 6: undefined
+---------------------------------------
+---------------------------------------
+Meaning 7: undefined
+---------------------------------------
+---------------------------------------
+Meaning 8: undefined
+---------------------------------------
+---------------------------------------
+Meaning 9: undefined
+---------------------------------------
+---------------------------------------
+Meaning 10: undefined
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:05:09
+---------------------------------------
+Meaning 1: undefined
+---------------------------------------
+---------------------------------------
+Meaning 2: undefined
+---------------------------------------
+---------------------------------------
+Meaning 3: ["town "," England in Kent on Stour River "," 4227"]
+---------------------------------------
+---------------------------------------
+Meaning 4: ":two usually hinged boards designed for hanging from the shoulders with one board before and one behind and used especially for advertising or picketing"
+---------------------------------------
+---------------------------------------
+Meaning 5: ":a clad coin"
+---------------------------------------
+---------------------------------------
+Meaning 6: ":a generation of people who are caring for their aging parents while supporting their own children"
+---------------------------------------
+---------------------------------------
+Meaning 7: ":one who wears a sandwich board"
+---------------------------------------
+---------------------------------------
+Meaning 8: undefined
+---------------------------------------
+---------------------------------------
+Meaning 9: ":a sandwich of three slices of bread with two layers of meat (as turkey) and lettuce, tomato, and mayonnaise"
+---------------------------------------
+---------------------------------------
+Meaning 10: undefined
+---------------------------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-01-18 18:05:57
+---------------------------------------
+Meaning 1: {"date":{"_text":"1762"},"sn":[{"_text":"1 a"},{"_text":"b"},{"_text":"2"}],"dt":[{"_text":":two or more slices of bread or a split roll having a filling in between"},{"_text":":one slice of bread covered with food"},{"_text":":something resembling a sandwich"},{"_text":":composite structural material consisting of layers often of high-strength facings bonded to a low strength central core"}],"sd":{"_text":"especially"}}
+---------------------------------------
+---------------------------------------
+Meaning 2: {"vt":{"_text":"transitive verb"},"date":{"_text":"1861"},"sn":[{"_text":"1"},{"_text":"2"}],"dt":[{"_text":":to make into or as if into a sandwich"},{"_text":":to insert or enclose between usually two things of another quality or character"},{"_text":":to make a place for ","un":{"_text":["often used with "," or "],"it":[{"_text":"in"},{"_text":"between"}]}}],"sd":{"_text":"especially"}}
+---------------------------------------
+---------------------------------------
+Meaning 3: {"dt":{"_text":["town "," England in Kent on Stour River "," 4227"],"g":{"_text":"SE"},"it":{"_text":"pop"}}}
+---------------------------------------
+---------------------------------------
+Meaning 4: {"date":{"_text":"1897"},"dt":{"_text":":two usually hinged boards designed for hanging from the shoulders with one board before and one behind and used especially for advertising or picketing"}}
+---------------------------------------
+---------------------------------------
+Meaning 5: {"date":{"_text":"1965"},"dt":{"_text":":a clad coin"}}
+---------------------------------------
+---------------------------------------
+Meaning 6: {"date":{"_text":"1987"},"dt":{"_text":":a generation of people who are caring for their aging parents while supporting their own children"}}
+---------------------------------------
+---------------------------------------
+Meaning 7: {"date":{"_text":"1864"},"dt":{"_text":":one who wears a sandwich board"}}
+---------------------------------------
+---------------------------------------
+Meaning 8: {"dt":{"dx":{"_text":"see ","dxt":{"_text":"hawaii ","dxn":{"_text":"1"}}}}}
+---------------------------------------
+---------------------------------------
+Meaning 9: {"date":{"_text":"1889"},"dt":{"_text":":a sandwich of three slices of bread with two layers of meat (as turkey) and lettuce, tomato, and mayonnaise"}}
+---------------------------------------
+---------------------------------------
+Meaning 10: {"date":{"_text":"1950"},"dt":[{"_text":":a usually grilled and pressed sandwich in Cuban-American cuisine served on a long split roll and typically containing roasted meats, cheese, and pickles"},{"_text":":","sx":{"_text":"submarine ","sxn":{"_text":"2"}}}],"sd":{"_text":"broadly"}}
+---------------------------------------

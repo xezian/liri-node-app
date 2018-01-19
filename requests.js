@@ -1,6 +1,7 @@
 // requirements
 const request = require("request");
 const weather = require("weather-js");
+const convert = require("xml-js");
 const keys = require("./keys.js");
 const global = require("./global.js");
 // object in which to export omdb function
@@ -18,7 +19,7 @@ const getMovieInfo = (name) => {
             let tomatoRating;
             // check first if the Response property of the object is marked "False", which happens for queries that aren't found in omdb
             if (JSON.parse(body).Response === "False") {
-                global.logWrapper("No such movie was found!")
+                global.logWrapper(`Liri: "No such movie was found!"`)
                 return;
             }
             // check if "Ratings" in the JSON response is an empty object which happens for some movies with fewer data in omdb
@@ -75,7 +76,51 @@ const getWeatherData = (city) => {
         }
     });
 };
+const merriamWeb = {
+    getDefinition: (word) => { 
+        let queryURL = "https://www.dictionaryapi.com/api/v1/references/collegiate/xml/" + word + "?key=" + keys.merriamWebKeys.dictionary;
+        let options = {
+            url: queryURL,
+        };
+        request(options, function(error, response, body) {
+            let xml = body;
+            let result = convert.xml2json(xml, {compact: true, spaces: 2});
+            let newBody = JSON.parse(result);
+            if (!newBody.entry_list.entry) {
+                global.logWrapper(`Liri: "No such word was found!`);
+                return;
+            };
+            for (let i = 0; i < newBody.entry_list.entry.length; i++) {
+                global.logWrapper(`---------------------------------------`);
+                global.logWrapper(`Meaning ${i + 1}: ${JSON.stringify(newBody.entry_list.entry[i].def)}`);
+                global.logWrapper(`---------------------------------------`);
+            }
+        })
+    },
+    getSynonyms: (word) => { 
+        let queryURL = " https://www.dictionaryapi.com/api/v1/references/thesaurus/xml/" + word + "?key=" + keys.merriamWebKeys.thesaurus;
+        let options = {
+            url: queryURL,
+        };
+        request(options, function(error, response, body) {
+            let xml = body;
+            let result = convert.xml2json(xml, {compact: true, spaces: 2});
+            let newBody = JSON.parse(result);
+            if (!newBody.entry_list.entry) {
+                global.logWrapper(`Liri: "No such word was found!`);
+                return;
+            };
+            for (let i = 0; i < newBody.entry_list.entry.length; i++) {
+                global.logWrapper(`---------------------------------------`);
+                global.logWrapper(`Meaning ${i + 1}: ${newBody.entry_list.entry[i].sens.mc._text}`);
+                global.logWrapper(`Synonyms: ${newBody.entry_list.entry[i].sens.syn._text}`);
+                global.logWrapper(`---------------------------------------`);
+            }
+        })
+    },
+};
 module.exports = {
+    merriamWeb: merriamWeb,
     getGameInfo: getGameInfo,
     getMovieInfo: getMovieInfo,
     tellMeAJoke: tellMeAJoke,
