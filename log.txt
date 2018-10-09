@@ -9,4 +9,44 @@ Welcome to my LOG!
 @
 @
 @
-@
+@keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: undefined
+When: 2018-10-08 19:54:44
+Liri: "Sorry, undefined is a request I do not recognize"
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: hello
+When: 2018-10-08 19:54:56
+Liri: "Sorry, hello is a request I do not recognize"
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: spotify
+When: 2018-10-08 19:55:03
+Liri: "Sorry, spotify is a request I do not recognize"
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: spotify-this
+When: 2018-10-08 19:55:07
+Liri: "Sorry, spotify-this is a request I do not recognize"
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: spotify-this-song
+When: 2018-10-08 19:55:30
+------------------
+Song Name: King of Carrot Flowers Pt. 1
+Artist: Neutral Milk Hotel
+Preview Link: https://p.scdn.co/mp3-preview/819c776142451ea143b5f6fc8a8ed8dad6318da8?cid=b412c2a128e244e2976cce8ccbef4522
+Album: In the Aeroplane Over the Sea
+------------------
+keys.js has been acccessed
+\/\/\/\/\/^v^v^v^v^v^v^v^v^v^~^~^~^~^~^~^-^-^-^-~~~~~~~-^-^-^-^-^~^~^~^~^~^~^v^v^v^v^v^v^v\/\/\/\/\
+Liri: "Happy to help!"
+Request: dictionary-this
+When: 2018-10-08 19:56:02
+Liri: "No such word was found!
