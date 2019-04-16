@@ -1,6 +1,6 @@
 # Hello, and welcome to liri-node-app
 ## liri stands for "language interpretation and recognition interface"
-### she is like a simplified command line version of iPhone's 'siri'
+### it's like a simplified command line version of iPhone's 'siri'
 - liri.js can currently take in one of the following commands:
 
 > * `my-tweets`
